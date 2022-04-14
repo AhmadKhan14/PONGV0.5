@@ -1,0 +1,314 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.index-body{
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(#2b1055, #7597de);
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #2b1055;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+header .logo{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+  background: #fff;
+  color: #2b1055;
+}
+
+.index-section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.index-section::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top,#1c0522,transparent);
+  z-index: 11;
+}
+
+.index-section img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.index-section img#moon{
+  mix-blend-mode: screen;
+}
+
+.index-section img#mountains_front{
+ z-index: 10;
+}
+
+#text{
+  position: absolute;
+  right: -350px;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  z-index: 9;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: #fff;
+  color: #2b1055;
+  font-size: 1.5rem;
+  z-index: 9;
+  transform: translateY(100px);
+  font-family: 'Poppins', sans-serif;
+}
+
+.sec{
+  position: relative;
+  padding: 100px;
+  background: #1c0522;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sec h2{
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sec p{
+  font-size: 1rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+/********************PONG****************************/
+.nav-link{
+  margin: 0 20px;
+  font-size: 1.2rem;
+  font-family: "Outfit";
+  color: #fff;
+}
+
+.navbar-brand{
+  font-size: 2.2rem;
+  font-family: "Outfit";
+  color: #fff;
+}
+
+.home-pageh1{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: "Outfit";
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.dropdown-item{
+  font-family: "Outfit";
+}
+
+.card{
+  margin-top: 50px;
+}
+
+hr{
+ border: dotted grey 6px;
+ border-bottom: none;
+ width: 5%;
+ margin: 100px auto 100px auto;
+}
+
+.P-subtitle{
+  text-align: center;
+  margin: 0 500px;
+  font-family: "Outfit";
+  margin-bottom: 100px;
+}
+
+.testimonial-text {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.testimonial-text2 {
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.testimonial-image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18.48%;
+  margin-top: 20px;
+}
+
+.testimonial-image4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36.5%;
+  background-color: #5EE6EB;
+  margin-bottom: 300px;
+}
+
+.species-header{
+  text-align: left;
+}
+
+.ukraine{
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: #4C3F91;
+  float: right;
+}
+
+span{
+  font-size: 4rem;
+}
+
+.species-p{
+  text-align: left;
+  margin-bottom: 150px;
+  margin-right: 700px;
+}
+
+.pricing-column{
+
+}
+
+.home-pageh2{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 4rem;
+}
+
+.home-pageh2{
+  margin-top: 20px;
+}
+
+.home-pageh2{
+  margin-bottom: 300px;
+}
+
+.species-img{
+  float: left;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.species-p2{
+  text-align: right;
+  margin-bottom: 150px;
+  margin-left: 700px;
+}
+
+.species-header2{
+  text-align: right;
+}
+
+
+#testimonial-carousel{
+  background-color: #5EE6EB;
+  margin-bottom: 300px;
+}
+
+.species-img2{
+ float: right;
+ margin-right: 50px;
+ margin-left: 20px;
+}
+
+.testimonial-image3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 26.17%;
+  margin-top: 20px;
+}
